@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 1.5em !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+    color: black !important;
+}
+
+h2{
+    font-size: 1.8em !important;
+    font-weight: bold !important;
+    margin: 20px !important;
+}
+
+.bg{
+    background-image: radial-gradient(rgb(200, 133, 178),rgb(116, 50, 116));
+    width: 100%;
+    height: 100%;
+}
+
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    /* border: 2px dotted white; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: gray;
+    font-size: 1em;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+}
+
+.logo{
+    width: 90px;
+}
+
+.title-home{
+    width: 600px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title-home h1{
+    font-size: 2em;
+}
+
+.title-home div{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-home{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+}
+
+.img-home img {
+    width: 250px;
+}
+
+.section-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title div{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 2em;
+}
+
+.section-about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section-about article{
+    width: 75vw;
+    border: 1px solid black;
+    padding: 2vw 5vw;
+    background-color: rgba(255, 255, 255, 0.514);
+    text-align: justify;
+}
+
+.img-about{
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.card-works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.card-works ul{
+    background-color: rgba(255, 255, 255, 0.514);
+    width: 360px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.article-work{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.section-work{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+
+
+
+
+
+
+/* Tabelas */
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+        
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    }
+        
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+        
+.tg .tg-te0j {
+    background-color: #c0c0c0;
+    border-color: #000000;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle
+}
+        
+.tg .tg-tfm4 {
+    background-color: rgba(255, 255, 255, 0.514);
+    border-color: #000000;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle
+}
+        
+.tg .tg-vhtn {
+    background-color: rgba(255, 255, 255, 0.514);
+    border-color: #000000;
+    text-align: center;
+    vertical-align: middle
+}
+
